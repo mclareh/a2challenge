@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <link href="styles/main.css" type="text/css" rel="stylesheet">
+  </head>
+  <body>
+	 <div class="welcome">
+	 <p>Welcome Back</p>
+	 </div> 
+     <div class="form">
+          <form>
+              <h1>Hello, friend.</h1><br>
+              <div class="form-row">
+                  <input type="text" placeholder="Email"/>
+              </div>
+              <div class="form-row">
+                  <input type="text" placeholder="Password"/>
+              </div>
+              <div class="button" onclick="checkLogin()"><button>SIGN IN</button>
+              </div>
+              <div class="form-row"> 
+				  <p>Having trouble? <a>Recover your password</a></p>
+			  </div>
+          </form>
+      </div>
+	  
+	  <div class="container">
+		<h1>Welcome, Grant Chirpus!</h1>  
+		<p><a>Log out</a></p>
+	  </div>
+	  
+	<div class="error">
+    	<p>Incorrect sign-in credentials.</p>
+		<button onclick="removeError()">Ok</button>
+  	</div>
+	  
+	<script type="text/javascript" src="scripts/script.js"></script>
+  </body>
+
+</html>

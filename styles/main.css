@@ -1,0 +1,90 @@
+.error {
+	display: none;
+	color: white;
+}
+
+.error button:hover {
+	background-color: pink;
+}
+
+body {
+    background: black;
+    font-family: serif;
+}
+.welcome {
+	display: flex;
+	justify-content: space-around;
+}
+
+.welcome p {
+	color: white;
+	font-family: serif;
+	width: 200px;
+	text-align: center;
+	border-top: 1px solid white;
+	padding: 10px;
+}
+
+h1 {
+    font-size: 30px;
+    color: black;
+	margin-bottom: 0px;
+	margin-top: 10px;
+}
+
+.form {
+    background: white;
+    font-size: 12px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+	text-align: center;
+    padding: 50px 20px;
+    max-width: 300px;
+}
+
+input {
+    width: 90%;
+	padding: 10px 0px;
+	margin: 5px 0px;
+	background-color: transparent;
+	border: 0px;
+}
+
+.button button {
+    color: white;
+    margin: 15px;
+	font-family: sans-serif;
+    padding: 10px 100px;
+    background: black;
+}
+
+.button button:hover {
+	background-color: pink;
+}
+
+.form-row p {
+	color: #cccccc;
+}
+
+.form-row p a {
+	text-decoration: underline;
+}
+
+.container {
+	display: none;
+	flex-direction: column;
+	justify-content: space-around;
+	text-align: center;
+	width: 60%;
+	height: 300px;
+	margin: 20%;
+	background-color: white;
+	
+}
+
+.container p a {
+	color: #cccccc;
+	text-decoration: underline;
+}
+
